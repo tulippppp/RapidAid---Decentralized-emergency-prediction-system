@@ -96,15 +96,20 @@ npm install
 cd frontend
 npm install
 cd ..
+
 2️⃣ Start local blockchain
 npm run chain
+
 3️⃣ Deploy contract
 npm run deploy:local
+
 4️⃣ Seed demo data
 npm run seed:demo:local
+
 5️⃣ Run frontend
 cd frontend
 npm run dev
+
 # Vercel Deployment
 Setup
 Push repo to GitHub
