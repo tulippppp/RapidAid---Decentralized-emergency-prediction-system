@@ -78,12 +78,14 @@ Database	Postgres
 Wallet	MetaMask
 # Project Structure
 <img width="221" height="309" alt="Screenshot 2026-03-25 at 8 09 06 PM" src="https://github.com/user-attachments/assets/4dd57a65-bf4a-46e4-a3b8-687fea9714dc" />
+
 #  Smart Contract Flow
 Core Functions
 createPrediction(title, deadline)
 placeBet(predictionId, option)
 resolvePrediction(predictionId, winningOption, proof)
 claimReward(predictionId)
+
 #  Assumptions
 Fixed stake amount
 One bet per wallet per prediction
