@@ -173,6 +173,8 @@ export default function App() {
               {predictions.map((prediction) => (
                 <PredictionCard
                   account={account}
+                  chainId={chainId}
+                  contractAddress={configuredAddress}
                   key={prediction.id}
                   onClaim={claimReward}
                   onResolve={resolvePrediction}

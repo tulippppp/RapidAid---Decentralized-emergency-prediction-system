@@ -9,8 +9,12 @@
     "compile": "hardhat compile",
     "deploy:local": "hardhat run scripts/deploy.js --network localhost",
     "deploy:shardeum": "hardhat run scripts/deploy.js --network shardeumTestnet",
+    "frontend:build": "cd frontend && npm run build",
     "seed:demo:local": "hardhat run scripts/seed-demo.js --network localhost",
     "seed:demo:shardeum": "hardhat run scripts/seed-demo.js --network shardeumTestnet"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-ethers": "^3.0.8",

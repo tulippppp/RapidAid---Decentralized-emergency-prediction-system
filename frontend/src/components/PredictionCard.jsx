@@ -6,6 +6,7 @@ import {
   formatTimestamp,
   shortAddress,
 } from "../lib/formatters";
+import FieldReports from "./FieldReports";
 
 function ProofField({ proof }) {
   if (!proof) {
@@ -37,6 +38,8 @@ function ProofField({ proof }) {
 
 export default function PredictionCard({
   account,
+  chainId,
+  contractAddress,
   onClaim,
   onResolve,
   onStake,
@@ -263,6 +266,14 @@ export default function PredictionCard({
           </button>
         </form>
       ) : null}
+
+      <FieldReports
+        account={account}
+        chainId={chainId}
+        contractAddress={contractAddress}
+        predictionId={prediction.id}
+        predictionTitle={prediction.title}
+      />
     </article>
   );
 }
