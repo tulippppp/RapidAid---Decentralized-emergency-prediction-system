@@ -129,11 +129,15 @@ SHARDEUM_CHAIN_ID=8119
 STAKE_AMOUNT=0.01
 DATABASE_URL=your_postgres_url
 VITE_ENABLE_FIELD_REPORTS=true
+
 2️⃣ Deploy
 npm run deploy:shardeum
+
 3️⃣ (Optional) Seed data
 npm run seed:demo:shardeum
+
   Frontend ↔ Contract Integration
+  
 ABI: frontend/src/config/RapidAidPredictionSystem.json
 Address: frontend/src/config/contract-addresses.json
 
