@@ -1,0 +1,9 @@
+{
+  "name": "RapidAidPredictionSystem",
+  "address": "0x8488560C311077334A14Aa0711e925bbCA0b34bf",
+  "chainId": "8119",
+  "network": "shardeumTestnet",
+  "deployer": "0x252C120221d0d60966e6fd71e8f8a67f1C2C19eD",
+  "stakeAmount": "0.01",
+  "deployedAt": "2026-03-25T06:34:29.903Z"
+}
